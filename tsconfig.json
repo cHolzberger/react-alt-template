@@ -9,11 +9,10 @@
     },
 		"filesGlob": [
 			"./**/*.ts",
+      "./**/*.tsx",
 			"!./node_modules/**/*.ts"
 		],
     "files": [
-        "./typings/tsd.d.ts",
-        "./src/components/Hello.tsx",
-        "./src/index.tsx"
+        "./typings/tsd.d.ts"
     ]
 }
