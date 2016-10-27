@@ -1,9 +1,12 @@
-import * as React from "react";
+import React from "react";
 import * as ReactDOM from "react-dom";
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import { Hello } from "./components/Hello";
+import MuiHello from "./components/MuiHello";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+ <MuiThemeProvider>
+    <MuiHello />
+	</MuiThemeProvider>,
     document.getElementById("example")
 );
